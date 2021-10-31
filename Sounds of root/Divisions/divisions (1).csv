@@ -1,0 +1,12 @@
+"id";"created_at";"updated_at";"name";"slug"
+<br />
+<b>Fatal error</b>:  Uncaught TypeError: PhpMyAdmin\Encoding::convertString(): Return value must be of type string, bool returned in C:\xampp\phpMyAdmin\libraries\classes\Encoding.php:199
+Stack trace:
+#0 C:\xampp\phpMyAdmin\libraries\classes\Export.php(182): PhpMyAdmin\Encoding::convertString('utf-8', 'windows-1252', '&quot;1&quot;;NULL;NULL;&quot;...')
+#1 C:\xampp\phpMyAdmin\libraries\classes\Plugins\Export\ExportCsv.php(336): PhpMyAdmin\Export-&gt;outputHandler('&quot;1&quot;;NULL;NULL;&quot;...')
+#2 C:\xampp\phpMyAdmin\libraries\classes\Export.php(1117): PhpMyAdmin\Plugins\Export\ExportCsv-&gt;exportData('words', 'divisions', '\r\n', 'index.php?route...', 'SELECT `id`, `c...', Array)
+#3 C:\xampp\phpMyAdmin\libraries\classes\Controllers\ExportController.php(613): PhpMyAdmin\Export-&gt;exportTable('words', 'divisions', 'data', Object(PhpMyAdmin\Plugins\Export\ExportExcel), '\r\n', 'index.php?route...', 'table', false, false, false, false, '1', '0', '0', '', Array)
+#4 C:\xampp\phpMyAdmin\libraries\classes\Routing.php(187): PhpMyAdmin\Controllers\ExportController-&gt;index(Array)
+#5 C:\xampp\phpMyAdmin\index.php(18): PhpMyAdmin\Routing::callControllerForRoute('/export', Object(FastRoute\Dispatcher\GroupCountBased), Object(Symfony\Component\DependencyInjection\ContainerBuilder))
+#6 {main}
+  thrown in <b>C:\xampp\phpMyAdmin\libraries\classes\Encoding.php</b> on line <b>199</b><br />

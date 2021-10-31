@@ -1,0 +1,16 @@
+[
+{"type":"header","version":"5.1.1","comment":"Export to JSON plugin for PHPMyAdmin"},
+{"type":"database","name":"words"},
+{"type":"table","name":"divisions","database":"words","data":
+[
+{"id":"1","created_at":null,"updated_at":null,"name":"ঢাকা","slug":"dhaka"},
+{"id":"2","created_at":null,"updated_at":null,"name":"ময়মনসিংহ","slug":"mymensingh"},
+{"id":"3","created_at":null,"updated_at":null,"name":"রংপুর","slug":"rangpur"},
+{"id":"4","created_at":null,"updated_at":null,"name":"রাজশাহী","slug":"rajshahi"},
+{"id":"5","created_at":null,"updated_at":null,"name":"চট্রগ্রাম","slug":"chittagong"},
+{"id":"6","created_at":null,"updated_at":null,"name":"খুলনা","slug":"khulna"},
+{"id":"7","created_at":null,"updated_at":null,"name":"বরিশাল","slug":"barisal"},
+{"id":"8","created_at":null,"updated_at":null,"name":"সিলেট","slug":"Sylhet"}
+]
+}
+]

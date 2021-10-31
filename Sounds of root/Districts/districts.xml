@@ -1,0 +1,551 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+- phpMyAdmin XML Dump
+- version 5.1.1
+- https://www.phpmyadmin.net
+-
+- Host: 127.0.0.1
+- Generation Time: Nov 01, 2021 at 12:36 AM
+- Server version: 10.4.21-MariaDB
+- PHP Version: 8.0.11
+-->
+
+<pma_xml_export version="1.0" xmlns:pma="https://www.phpmyadmin.net/some_doc_url/">
+    <!--
+    - Structure schemas
+    -->
+    <pma:structure_schemas>
+        <pma:database name="words" collation="utf8mb4_general_ci" charset="utf8mb4">
+            <pma:table name="districts">
+                CREATE TABLE `districts` (
+                  `id` bigint(20) unsigned NOT NULL AUTO_INCREMENT,
+                  `name` varchar(255) COLLATE utf8mb4_unicode_ci NOT NULL,
+                  `slug` varchar(255) COLLATE utf8mb4_unicode_ci NOT NULL,
+                  `division_id` int(11) NOT NULL,
+                  `created_at` timestamp NULL DEFAULT NULL,
+                  `updated_at` timestamp NULL DEFAULT NULL,
+                  PRIMARY KEY (`id`)
+                ) ENGINE=InnoDB AUTO_INCREMENT=65 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+            </pma:table>
+        </pma:database>
+    </pma:structure_schemas>
+
+    <!--
+    - Database: 'words'
+    -->
+    <database name="words">
+        <!-- Table districts -->
+        <table name="districts">
+            <column name="id">1</column>
+            <column name="name">শেরপুর</column>
+            <column name="slug">sherpur</column>
+            <column name="division_id">2</column>
+            <column name="created_at">2021-10-17 15:16:08</column>
+            <column name="updated_at">2021-10-17 15:16:08</column>
+        </table>
+        <table name="districts">
+            <column name="id">2</column>
+            <column name="name">জামালপুর</column>
+            <column name="slug">jamalpur</column>
+            <column name="division_id">2</column>
+            <column name="created_at">2021-10-17 15:25:26</column>
+            <column name="updated_at">2021-10-17 15:25:26</column>
+        </table>
+        <table name="districts">
+            <column name="id">3</column>
+            <column name="name">ময়মনসিংহ</column>
+            <column name="slug">mymensingh</column>
+            <column name="division_id">2</column>
+            <column name="created_at">2021-10-18 02:06:58</column>
+            <column name="updated_at">2021-10-18 02:06:58</column>
+        </table>
+        <table name="districts">
+            <column name="id">4</column>
+            <column name="name">নেত্রকোনা</column>
+            <column name="slug">netrokona</column>
+            <column name="division_id">2</column>
+            <column name="created_at">2021-10-18 02:07:43</column>
+            <column name="updated_at">2021-10-18 02:07:43</column>
+        </table>
+        <table name="districts">
+            <column name="id">5</column>
+            <column name="name">ঢাকা</column>
+            <column name="slug">dhaka</column>
+            <column name="division_id">1</column>
+            <column name="created_at">2021-10-18 02:26:40</column>
+            <column name="updated_at">2021-10-18 02:26:40</column>
+        </table>
+        <table name="districts">
+            <column name="id">6</column>
+            <column name="name">ফরিদপুর</column>
+            <column name="slug">faridpur</column>
+            <column name="division_id">1</column>
+            <column name="created_at">2021-10-18 02:27:15</column>
+            <column name="updated_at">2021-10-18 02:27:15</column>
+        </table>
+        <table name="districts">
+            <column name="id">7</column>
+            <column name="name">গাজীপুর</column>
+            <column name="slug">gazipur</column>
+            <column name="division_id">1</column>
+            <column name="created_at">2021-10-18 02:27:59</column>
+            <column name="updated_at">2021-10-18 02:27:59</column>
+        </table>
+        <table name="districts">
+            <column name="id">8</column>
+            <column name="name">গোপালগঞ্জ</column>
+            <column name="slug">gopalganj</column>
+            <column name="division_id">1</column>
+            <column name="created_at">2021-10-18 02:28:26</column>
+            <column name="updated_at">2021-10-18 02:28:26</column>
+        </table>
+        <table name="districts">
+            <column name="id">9</column>
+            <column name="name">কিশোরগঞ্জ</column>
+            <column name="slug">kishoreganj</column>
+            <column name="division_id">1</column>
+            <column name="created_at">2021-10-18 02:28:55</column>
+            <column name="updated_at">2021-10-18 02:28:55</column>
+        </table>
+        <table name="districts">
+            <column name="id">10</column>
+            <column name="name">মাদারিপুর</column>
+            <column name="slug">madaripur</column>
+            <column name="division_id">1</column>
+            <column name="created_at">2021-10-18 02:29:23</column>
+            <column name="updated_at">2021-10-18 02:29:23</column>
+        </table>
+        <table name="districts">
+            <column name="id">11</column>
+            <column name="name">মানিকগঞ্জ</column>
+            <column name="slug">manikganj</column>
+            <column name="division_id">1</column>
+            <column name="created_at">2021-10-18 02:29:58</column>
+            <column name="updated_at">2021-10-18 02:29:58</column>
+        </table>
+        <table name="districts">
+            <column name="id">12</column>
+            <column name="name">মুন্সিগঞ্জ</column>
+            <column name="slug">munsiganj</column>
+            <column name="division_id">1</column>
+            <column name="created_at">2021-10-18 02:30:30</column>
+            <column name="updated_at">2021-10-18 02:30:30</column>
+        </table>
+        <table name="districts">
+            <column name="id">13</column>
+            <column name="name">নারায়নগঞ্জ</column>
+            <column name="slug">narayanganj</column>
+            <column name="division_id">1</column>
+            <column name="created_at">2021-10-18 02:31:00</column>
+            <column name="updated_at">2021-10-18 02:31:00</column>
+        </table>
+        <table name="districts">
+            <column name="id">14</column>
+            <column name="name">নরসিংদী</column>
+            <column name="slug">narsingdi</column>
+            <column name="division_id">1</column>
+            <column name="created_at">2021-10-18 02:31:27</column>
+            <column name="updated_at">2021-10-18 02:31:27</column>
+        </table>
+        <table name="districts">
+            <column name="id">15</column>
+            <column name="name">রাজবাড়ী</column>
+            <column name="slug">rajbari</column>
+            <column name="division_id">1</column>
+            <column name="created_at">2021-10-18 02:31:47</column>
+            <column name="updated_at">2021-10-18 02:31:47</column>
+        </table>
+        <table name="districts">
+            <column name="id">16</column>
+            <column name="name">শরিয়তপুর</column>
+            <column name="slug">sariatpur</column>
+            <column name="division_id">1</column>
+            <column name="created_at">2021-10-18 02:32:34</column>
+            <column name="updated_at">2021-10-18 02:32:34</column>
+        </table>
+        <table name="districts">
+            <column name="id">17</column>
+            <column name="name">টাঙ্গাইল</column>
+            <column name="slug">tangail</column>
+            <column name="division_id">1</column>
+            <column name="created_at">2021-10-18 02:32:59</column>
+            <column name="updated_at">2021-10-18 02:32:59</column>
+        </table>
+        <table name="districts">
+            <column name="id">18</column>
+            <column name="name">কুষ্টিয়া</column>
+            <column name="slug">kushtia</column>
+            <column name="division_id">6</column>
+            <column name="created_at">2021-10-18 02:37:20</column>
+            <column name="updated_at">2021-10-18 02:37:20</column>
+        </table>
+        <table name="districts">
+            <column name="id">19</column>
+            <column name="name">খুলনা</column>
+            <column name="slug">khulna</column>
+            <column name="division_id">6</column>
+            <column name="created_at">2021-10-18 02:37:43</column>
+            <column name="updated_at">2021-10-18 02:37:43</column>
+        </table>
+        <table name="districts">
+            <column name="id">20</column>
+            <column name="name">চুয়াডাঙ্গা</column>
+            <column name="slug">chuadanga</column>
+            <column name="division_id">6</column>
+            <column name="created_at">2021-10-18 02:38:08</column>
+            <column name="updated_at">2021-10-18 02:38:08</column>
+        </table>
+        <table name="districts">
+            <column name="id">21</column>
+            <column name="name">ঝিনাইদহ</column>
+            <column name="slug">jhinaidah</column>
+            <column name="division_id">6</column>
+            <column name="created_at">2021-10-18 02:38:38</column>
+            <column name="updated_at">2021-10-18 02:38:38</column>
+        </table>
+        <table name="districts">
+            <column name="id">22</column>
+            <column name="name">নড়াইল</column>
+            <column name="slug">narail</column>
+            <column name="division_id">6</column>
+            <column name="created_at">2021-10-18 02:39:35</column>
+            <column name="updated_at">2021-10-18 02:39:35</column>
+        </table>
+        <table name="districts">
+            <column name="id">23</column>
+            <column name="name">বাগেরহাট</column>
+            <column name="slug">bagherhat</column>
+            <column name="division_id">6</column>
+            <column name="created_at">2021-10-18 02:39:59</column>
+            <column name="updated_at">2021-10-18 02:39:59</column>
+        </table>
+        <table name="districts">
+            <column name="id">24</column>
+            <column name="name">মাগুরা</column>
+            <column name="slug">magura</column>
+            <column name="division_id">6</column>
+            <column name="created_at">2021-10-18 02:40:30</column>
+            <column name="updated_at">2021-10-18 02:40:30</column>
+        </table>
+        <table name="districts">
+            <column name="id">25</column>
+            <column name="name">মেহেরপুর</column>
+            <column name="slug">meherpur</column>
+            <column name="division_id">6</column>
+            <column name="created_at">2021-10-18 02:41:20</column>
+            <column name="updated_at">2021-10-18 02:41:20</column>
+        </table>
+        <table name="districts">
+            <column name="id">26</column>
+            <column name="name">যশোর</column>
+            <column name="slug">jeshore</column>
+            <column name="division_id">6</column>
+            <column name="created_at">2021-10-18 02:42:08</column>
+            <column name="updated_at">2021-10-18 02:42:08</column>
+        </table>
+        <table name="districts">
+            <column name="id">27</column>
+            <column name="name">সাতক্ষীরা</column>
+            <column name="slug">satkhira</column>
+            <column name="division_id">6</column>
+            <column name="created_at">2021-10-18 02:42:38</column>
+            <column name="updated_at">2021-10-18 02:42:38</column>
+        </table>
+        <table name="districts">
+            <column name="id">28</column>
+            <column name="name">চট্টগ্রাম</column>
+            <column name="slug">chatragram</column>
+            <column name="division_id">5</column>
+            <column name="created_at">2021-10-18 02:48:22</column>
+            <column name="updated_at">2021-10-18 02:48:22</column>
+        </table>
+        <table name="districts">
+            <column name="id">29</column>
+            <column name="name">কুমিল্লা</column>
+            <column name="slug">comilla</column>
+            <column name="division_id">5</column>
+            <column name="created_at">2021-10-18 02:49:13</column>
+            <column name="updated_at">2021-10-18 02:49:13</column>
+        </table>
+        <table name="districts">
+            <column name="id">30</column>
+            <column name="name">কক্সবাজার</column>
+            <column name="slug">coxbazar</column>
+            <column name="division_id">5</column>
+            <column name="created_at">2021-10-18 02:49:56</column>
+            <column name="updated_at">2021-10-18 02:49:56</column>
+        </table>
+        <table name="districts">
+            <column name="id">31</column>
+            <column name="name">নোয়াখালী</column>
+            <column name="slug">noakhali</column>
+            <column name="division_id">5</column>
+            <column name="created_at">2021-10-18 02:50:26</column>
+            <column name="updated_at">2021-10-18 02:50:26</column>
+        </table>
+        <table name="districts">
+            <column name="id">32</column>
+            <column name="name">ব্রাহ্মণবাড়িয়া</column>
+            <column name="slug">brahmanbaria</column>
+            <column name="division_id">5</column>
+            <column name="created_at">2021-10-18 02:50:56</column>
+            <column name="updated_at">2021-10-18 02:50:56</column>
+        </table>
+        <table name="districts">
+            <column name="id">33</column>
+            <column name="name">চাঁদপুর</column>
+            <column name="slug">chandpur</column>
+            <column name="division_id">5</column>
+            <column name="created_at">2021-10-18 02:51:20</column>
+            <column name="updated_at">2021-10-18 02:51:20</column>
+        </table>
+        <table name="districts">
+            <column name="id">34</column>
+            <column name="name">লক্ষ্মীপুর</column>
+            <column name="slug">laxmipur</column>
+            <column name="division_id">5</column>
+            <column name="created_at">2021-10-18 02:51:49</column>
+            <column name="updated_at">2021-10-18 02:51:49</column>
+        </table>
+        <table name="districts">
+            <column name="id">35</column>
+            <column name="name">ফেনী</column>
+            <column name="slug">feni</column>
+            <column name="division_id">5</column>
+            <column name="created_at">2021-10-18 02:52:10</column>
+            <column name="updated_at">2021-10-18 02:52:10</column>
+        </table>
+        <table name="districts">
+            <column name="id">36</column>
+            <column name="name">খাগড়াছড়ি</column>
+            <column name="slug">khagrachari</column>
+            <column name="division_id">5</column>
+            <column name="created_at">2021-10-18 02:52:35</column>
+            <column name="updated_at">2021-10-18 02:52:35</column>
+        </table>
+        <table name="districts">
+            <column name="id">37</column>
+            <column name="name">রাঙ্গামাটি</column>
+            <column name="slug">rangamati</column>
+            <column name="division_id">5</column>
+            <column name="created_at">2021-10-18 02:53:39</column>
+            <column name="updated_at">2021-10-18 02:53:39</column>
+        </table>
+        <table name="districts">
+            <column name="id">38</column>
+            <column name="name">বান্দরবান</column>
+            <column name="slug">bandarban</column>
+            <column name="division_id">5</column>
+            <column name="created_at">2021-10-18 02:56:17</column>
+            <column name="updated_at">2021-10-18 02:56:17</column>
+        </table>
+        <table name="districts">
+            <column name="id">39</column>
+            <column name="name">রাজশাহী</column>
+            <column name="slug">rajshahi</column>
+            <column name="division_id">4</column>
+            <column name="created_at">2021-10-18 03:49:44</column>
+            <column name="updated_at">2021-10-18 03:49:44</column>
+        </table>
+        <table name="districts">
+            <column name="id">40</column>
+            <column name="name">নাটোর</column>
+            <column name="slug">natore</column>
+            <column name="division_id">4</column>
+            <column name="created_at">2021-10-18 03:50:18</column>
+            <column name="updated_at">2021-10-18 03:50:18</column>
+        </table>
+        <table name="districts">
+            <column name="id">41</column>
+            <column name="name">নওগাঁ</column>
+            <column name="slug">naoga</column>
+            <column name="division_id">4</column>
+            <column name="created_at">2021-10-18 03:51:01</column>
+            <column name="updated_at">2021-10-18 03:51:01</column>
+        </table>
+        <table name="districts">
+            <column name="id">42</column>
+            <column name="name">চাঁপাইনবাবগঞ্জ</column>
+            <column name="slug">chapainababganj</column>
+            <column name="division_id">4</column>
+            <column name="created_at">2021-10-18 03:51:33</column>
+            <column name="updated_at">2021-10-18 03:51:33</column>
+        </table>
+        <table name="districts">
+            <column name="id">43</column>
+            <column name="name">বগুড়া</column>
+            <column name="slug">bogura</column>
+            <column name="division_id">4</column>
+            <column name="created_at">2021-10-18 03:51:55</column>
+            <column name="updated_at">2021-10-18 03:51:55</column>
+        </table>
+        <table name="districts">
+            <column name="id">44</column>
+            <column name="name">জয়পুরহাট</column>
+            <column name="slug">jaipurhat</column>
+            <column name="division_id">4</column>
+            <column name="created_at">2021-10-18 03:52:19</column>
+            <column name="updated_at">2021-10-18 03:52:19</column>
+        </table>
+        <table name="districts">
+            <column name="id">45</column>
+            <column name="name">পাবনা</column>
+            <column name="slug">pabna</column>
+            <column name="division_id">4</column>
+            <column name="created_at">2021-10-18 03:52:47</column>
+            <column name="updated_at">2021-10-18 03:52:47</column>
+        </table>
+        <table name="districts">
+            <column name="id">46</column>
+            <column name="name">সিরাজগঞ্জ</column>
+            <column name="slug">sirajganj</column>
+            <column name="division_id">4</column>
+            <column name="created_at">2021-10-18 03:53:10</column>
+            <column name="updated_at">2021-10-18 03:53:10</column>
+        </table>
+        <table name="districts">
+            <column name="id">47</column>
+            <column name="name">রংপুর</column>
+            <column name="slug">rangpur</column>
+            <column name="division_id">3</column>
+            <column name="created_at">2021-10-18 03:54:19</column>
+            <column name="updated_at">2021-10-18 03:54:19</column>
+        </table>
+        <table name="districts">
+            <column name="id">48</column>
+            <column name="name">দিনাজপুর</column>
+            <column name="slug">dinajpur</column>
+            <column name="division_id">3</column>
+            <column name="created_at">2021-10-18 03:54:48</column>
+            <column name="updated_at">2021-10-18 03:54:48</column>
+        </table>
+        <table name="districts">
+            <column name="id">49</column>
+            <column name="name">নীলফামারী</column>
+            <column name="slug">nilfamary</column>
+            <column name="division_id">3</column>
+            <column name="created_at">2021-10-18 03:55:27</column>
+            <column name="updated_at">2021-10-18 03:55:27</column>
+        </table>
+        <table name="districts">
+            <column name="id">50</column>
+            <column name="name">গাইবান্ধা</column>
+            <column name="slug">gaibandha</column>
+            <column name="division_id">3</column>
+            <column name="created_at">2021-10-18 03:55:56</column>
+            <column name="updated_at">2021-10-18 03:55:56</column>
+        </table>
+        <table name="districts">
+            <column name="id">51</column>
+            <column name="name">লালমনিরহাট</column>
+            <column name="slug">lalmanirhat</column>
+            <column name="division_id">3</column>
+            <column name="created_at">2021-10-18 03:56:20</column>
+            <column name="updated_at">2021-10-18 03:56:20</column>
+        </table>
+        <table name="districts">
+            <column name="id">52</column>
+            <column name="name">ঠাকুরগাও</column>
+            <column name="slug">thakurgao</column>
+            <column name="division_id">3</column>
+            <column name="created_at">2021-10-18 03:56:51</column>
+            <column name="updated_at">2021-10-18 03:56:51</column>
+        </table>
+        <table name="districts">
+            <column name="id">53</column>
+            <column name="name">কুড়িগ্রাম</column>
+            <column name="slug">kurigram</column>
+            <column name="division_id">3</column>
+            <column name="created_at">2021-10-18 03:57:13</column>
+            <column name="updated_at">2021-10-18 03:57:13</column>
+        </table>
+        <table name="districts">
+            <column name="id">54</column>
+            <column name="name">পঞ্চগড়</column>
+            <column name="slug">panchagar</column>
+            <column name="division_id">3</column>
+            <column name="created_at">2021-10-18 03:57:38</column>
+            <column name="updated_at">2021-10-18 03:57:38</column>
+        </table>
+        <table name="districts">
+            <column name="id">55</column>
+            <column name="name">বরিশাল</column>
+            <column name="slug">barisal</column>
+            <column name="division_id">7</column>
+            <column name="created_at">2021-10-18 04:00:00</column>
+            <column name="updated_at">2021-10-18 04:00:00</column>
+        </table>
+        <table name="districts">
+            <column name="id">56</column>
+            <column name="name">পটুয়াখালী</column>
+            <column name="slug">patuakhali</column>
+            <column name="division_id">7</column>
+            <column name="created_at">2021-10-18 04:00:31</column>
+            <column name="updated_at">2021-10-18 04:00:31</column>
+        </table>
+        <table name="districts">
+            <column name="id">57</column>
+            <column name="name">ভোলা</column>
+            <column name="slug">bhola</column>
+            <column name="division_id">7</column>
+            <column name="created_at">2021-10-18 04:00:53</column>
+            <column name="updated_at">2021-10-18 04:00:53</column>
+        </table>
+        <table name="districts">
+            <column name="id">58</column>
+            <column name="name">পিরোজপুর</column>
+            <column name="slug">pirojpur</column>
+            <column name="division_id">7</column>
+            <column name="created_at">2021-10-18 04:01:38</column>
+            <column name="updated_at">2021-10-18 04:01:38</column>
+        </table>
+        <table name="districts">
+            <column name="id">59</column>
+            <column name="name">বরগুনা</column>
+            <column name="slug">barguna</column>
+            <column name="division_id">7</column>
+            <column name="created_at">2021-10-18 04:02:00</column>
+            <column name="updated_at">2021-10-18 04:02:00</column>
+        </table>
+        <table name="districts">
+            <column name="id">60</column>
+            <column name="name">ঝালকাঠী</column>
+            <column name="slug">jhalokathi</column>
+            <column name="division_id">7</column>
+            <column name="created_at">2021-10-18 04:02:40</column>
+            <column name="updated_at">2021-10-18 04:02:40</column>
+        </table>
+        <table name="districts">
+            <column name="id">61</column>
+            <column name="name">সিলেট</column>
+            <column name="slug">sylhet</column>
+            <column name="division_id">8</column>
+            <column name="created_at">2021-10-18 04:04:42</column>
+            <column name="updated_at">2021-10-18 04:04:42</column>
+        </table>
+        <table name="districts">
+            <column name="id">62</column>
+            <column name="name">হবিগঞ্জ</column>
+            <column name="slug">habiganj</column>
+            <column name="division_id">8</column>
+            <column name="created_at">2021-10-18 04:05:06</column>
+            <column name="updated_at">2021-10-18 04:05:06</column>
+        </table>
+        <table name="districts">
+            <column name="id">63</column>
+            <column name="name">সুনামগঞ্জ</column>
+            <column name="slug">sunamganj</column>
+            <column name="division_id">8</column>
+            <column name="created_at">2021-10-18 04:05:30</column>
+            <column name="updated_at">2021-10-18 04:05:30</column>
+        </table>
+        <table name="districts">
+            <column name="id">64</column>
+            <column name="name">মৌলভীবাজার</column>
+            <column name="slug">moulovibazar</column>
+            <column name="division_id">8</column>
+            <column name="created_at">2021-10-18 04:05:59</column>
+            <column name="updated_at">2021-10-18 04:05:59</column>
+        </table>
+    </database>
+</pma_xml_export>

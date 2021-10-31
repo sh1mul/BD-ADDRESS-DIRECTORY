@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+- phpMyAdmin XML Dump
+- version 5.1.1
+- https://www.phpmyadmin.net
+-
+- Host: 127.0.0.1
+- Generation Time: Nov 01, 2021 at 12:38 AM
+- Server version: 10.4.21-MariaDB
+- PHP Version: 8.0.11
+-->
+
+<pma_xml_export version="1.0" xmlns:pma="https://www.phpmyadmin.net/some_doc_url/">
+    <!--
+    - Structure schemas
+    -->
+    <pma:structure_schemas>
+        <pma:database name="words" collation="utf8mb4_general_ci" charset="utf8mb4">
+            <pma:table name="divisions">
+                CREATE TABLE `divisions` (
+                  `id` bigint(20) unsigned NOT NULL AUTO_INCREMENT,
+                  `created_at` timestamp NULL DEFAULT NULL,
+                  `updated_at` timestamp NULL DEFAULT NULL,
+                  `name` varchar(255) COLLATE utf8mb4_unicode_ci NOT NULL,
+                  `slug` varchar(255) COLLATE utf8mb4_unicode_ci NOT NULL,
+                  PRIMARY KEY (`id`)
+                ) ENGINE=InnoDB AUTO_INCREMENT=9 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+            </pma:table>
+        </pma:database>
+    </pma:structure_schemas>
+
+    <!--
+    - Database: 'words'
+    -->
+    <database name="words">
+        <!-- Table divisions -->
+        <table name="divisions">
+            <column name="id">1</column>
+            <column name="created_at">NULL</column>
+            <column name="updated_at">NULL</column>
+            <column name="name">ঢাকা</column>
+            <column name="slug">dhaka</column>
+        </table>
+        <table name="divisions">
+            <column name="id">2</column>
+            <column name="created_at">NULL</column>
+            <column name="updated_at">NULL</column>
+            <column name="name">ময়মনসিংহ</column>
+            <column name="slug">mymensingh</column>
+        </table>
+        <table name="divisions">
+            <column name="id">3</column>
+            <column name="created_at">NULL</column>
+            <column name="updated_at">NULL</column>
+            <column name="name">রংপুর</column>
+            <column name="slug">rangpur</column>
+        </table>
+        <table name="divisions">
+            <column name="id">4</column>
+            <column name="created_at">NULL</column>
+            <column name="updated_at">NULL</column>
+            <column name="name">রাজশাহী</column>
+            <column name="slug">rajshahi</column>
+        </table>
+        <table name="divisions">
+            <column name="id">5</column>
+            <column name="created_at">NULL</column>
+            <column name="updated_at">NULL</column>
+            <column name="name">চট্রগ্রাম</column>
+            <column name="slug">chittagong</column>
+        </table>
+        <table name="divisions">
+            <column name="id">6</column>
+            <column name="created_at">NULL</column>
+            <column name="updated_at">NULL</column>
+            <column name="name">খুলনা</column>
+            <column name="slug">khulna</column>
+        </table>
+        <table name="divisions">
+            <column name="id">7</column>
+            <column name="created_at">NULL</column>
+            <column name="updated_at">NULL</column>
+            <column name="name">বরিশাল</column>
+            <column name="slug">barisal</column>
+        </table>
+        <table name="divisions">
+            <column name="id">8</column>
+            <column name="created_at">NULL</column>
+            <column name="updated_at">NULL</column>
+            <column name="name">সিলেট</column>
+            <column name="slug">Sylhet</column>
+        </table>
+    </database>
+</pma_xml_export>
